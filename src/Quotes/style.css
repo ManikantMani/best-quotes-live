@@ -1,0 +1,218 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100wh;
+    height: 100vh;
+    background-color: darkgrey;
+    overflow: hidden;
+}
+
+.inner {
+    width: 35rem;
+    height: 35rem;
+    background-color: dodgerblue;
+    box-shadow: 1.2rem 1.2rem 1.2rem 1.2rem rgba(255, 237, 237, 0.3);
+    box-sizing: border-box;
+    border: solid 2px dodgerblue;
+    margin: auto;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.box {
+    background-color: whitesmoke;
+    box-shadow: 1.2rem 1.2rem 1.2rem 1.2rem rgba(15, 14, 24, 0.3);
+    width: 25rem;
+    height: 25rem;
+    margin: auto;
+    margin-top: 5rem;
+    border: solid 2px dodgerblue;
+    align-items: center;
+
+}
+
+.input {
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    overflow: hidden;
+    width: 3.5rem;
+    height: 1.8rem;
+    background-color: transparent;
+    margin-left: 21rem;
+    color: rgb(20, 47, 73);
+}
+
+.icon {
+    color: rgb(63, 63, 83);
+    font-size: 2.4rem ;
+    margin-top: 2rem;
+    margin-left: 10px;
+}
+
+.text {
+    font-size: 2rem;
+    padding: 10px;
+    font-weight: 500;
+    color: rgb(10, 31, 51);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.author {
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+ .button {
+    position: fixed;
+    bottom: 8.2rem;
+    right: 35.5rem;
+} 
+
+.preQ , .nexQ {
+   width: 12.5rem;
+   height: 4rem; 
+   border: none;
+   background-color: rgb(0, 77, 153);
+   color: white;
+   cursor: pointer;
+   transition: w;
+}
+
+.preQ:hover {
+    background-color: rgb(0, 34, 68);
+    
+}
+.nexQ:hover {
+    background-color:rgb(0, 34, 68);
+}
+
+
+@media only screen and (max-width: 377px) {
+    .container {width: auto;
+    height: 100vh;
+}
+    .inner {
+        width: 17rem;
+        height: 17rem;
+    }
+    .box {
+        width: 12rem;
+        height: 12rem;
+        margin-top: 2.5rem;
+    }
+    .input {
+        margin: auto;
+    }
+    .icon {
+        font-size: 0.5rem;
+        margin-top: 0.11rem;
+    }
+    .text {
+        font-size: 0.8rem;
+    }
+    .author {
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+    .button {
+        position: static;
+       margin-left: 7rem; 
+    }
+    .preQ , .nexQ {
+        width: 5rem;
+    }
+}
+
+@media (min-width: 377px)  and (max-width: 500px) {
+    .container {width: auto;
+        height: 100vh;
+    }
+        .inner {
+            width: 18rem;
+            height: 18rem;
+        }
+        .box {
+            width: 13rem;
+            height: 13rem;
+            margin-top: 2.5rem;
+        }
+        .input {
+            margin: auto;
+        }
+        .icon {
+            font-size: 0.8rem;
+            margin-top: 0.21rem;
+        }
+        .text {
+            font-size: 0.9rem;
+        }
+        .author {
+            margin-top: 2.5rem;
+            margin-left: 3rem;
+        }
+        .button {
+            position: static;
+           margin-left: 9rem; 
+        }
+        .preQ , .nexQ {
+            width: 5rem;
+        }
+}
+
+@media (min-width: 500px)  and (max-width: 768px) {
+    .container {width: auto;
+        height: 100vh;
+    }
+        .inner {
+            width: 26rem;
+            height: 26rem;
+        }
+        .box {
+            width: 18rem;
+            height: 18rem;
+            margin-top: 3rem;
+        }
+        .input {
+            margin: auto;
+        }
+        .icon {
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+        .text {
+            font-size: 1.2rem;
+        }
+        .author {
+            margin-top: 4rem;
+            margin-left: 3rem;
+        }
+        .button {
+            position: static;
+           margin-left: 11rem; 
+        }
+        .preQ , .nexQ {
+            width: 5rem;
+        }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+        .button {
+            position: static;
+           margin-left: 13rem; 
+           margin-top: -5rem;
+        }
+        .preQ , .nexQ {
+            width: 5rem;
+        }
+}
+
+/* @media (min-width: 992) and (max-width: 1200px) {} */
