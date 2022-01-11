@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/best-quotes-live/static/css/main.b5351550.css",
+    "main.js": "/best-quotes-live/static/js/main.3f6e51eb.js",
+    "static/js/787.e43af346.chunk.js": "/best-quotes-live/static/js/787.e43af346.chunk.js",
+    "index.html": "/best-quotes-live/index.html",
+    "main.b5351550.css.map": "/best-quotes-live/static/css/main.b5351550.css.map",
+    "main.3f6e51eb.js.map": "/best-quotes-live/static/js/main.3f6e51eb.js.map",
+    "787.e43af346.chunk.js.map": "/best-quotes-live/static/js/787.e43af346.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5351550.css",
+    "static/js/main.3f6e51eb.js"
+  ]
+}
